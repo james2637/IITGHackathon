@@ -11,13 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jaro:opsz@6..72&display=swap"
       rel="stylesheet"
     />
-    />
   </head>
   <body>
     <header>
       <h2 class="logo">WeMonitor</h2>
       <nav class="navigation">
-        <a href="#">Home</a>
+        <a href="index.html">Home</a>
         <a href="#">Meter</a>
         <a href="#">Graph</a>
         <a href="#">Bot</a>
@@ -30,26 +29,29 @@
     <div class="dashboard">
       <div class="gauge-container">
         <div class="gauge" id="volts-gauge">
-          <div class="gauge-label">Volts</div>
-          <div class="gauge-value" id="volts-value">0</div>
+          
+          <h3><div class="gauge-label">Volts</div><span id="volts-value"></span></h3>
+          <!-- <div class="gauge-value" id="volts-value">0</div> -->
         </div>
       </div>
       <div class="gauge-container">
         <div class="gauge" id="amp-gauge">
-          <div class="gauge-label">Amp</div>
-          <div class="gauge-value" id="amp-value">0</div>
+
+          <h3><div class="gauge-label">Amp</div><span id="amp-value"></span></h3>
+          <!-- <div class="gauge-value" id="amp-value">0</div> -->
         </div>
       </div>
       <div class="gauge-container">
         <div class="gauge" id="watt-gauge">
-          <div class="gauge-label">Watt</div>
-          <div class="gauge-value" id="watt-value">0</div>
+          <h3><div class="gauge-label">Watt</div><span id="watt-value"></span></h3>
+          <!-- <div class="gauge-value" id="watt-value">0</div> -->
         </div>
       </div>
       <div class="gauge-container">
         <div class="gauge" id="kwh-gauge">
-          <div class="gauge-label">Kwh</div>
-          <div class="gauge-value" id="kwh-value">0</div>
+          <h3><div class="gauge-label">Kwh</div><span id="kwh-value"></span></h3>
+          
+          <!-- <div class="gauge-value" id="kwh-value">0</div> -->
         </div>
       </div>
     </div>
