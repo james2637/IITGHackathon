@@ -63,8 +63,8 @@ class BlynkDataDashboard {
             if (!response.ok) {
                 throw new Error(`HTTP error for ${pin}: ${response.status}`);
             }
-            const data = await response.text(); // Blynk returns plain text
-            return parseFloat(data) || 0; // Convert to number or default to 0
+            const data = await response.text(); 
+            return parseFloat(data) || 0; 
         } catch (error) {
             this.handleError(error, pin);
             return 0;
