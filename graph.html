@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blynk Energy Dashboard</title>
+    <link rel="stylesheet" href="graph.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <div class="status-bar">
+            <span id="connection-status">Connecting...</span>
+            <span id="last-update-time">No data</span>
+        </div>
+
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <h3>Power Consumption</h3>
+                <div id="power-value" class="metric-value">0.00 kW</div>
+                <canvas id="power-chart" height="200"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="graph.js"></script>
+</body>
+</html>
