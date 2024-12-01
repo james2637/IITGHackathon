@@ -12,7 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url("background.png") no-repeat;
+  background: url("iStock-1086872420_ED-1024x683.jpg") no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -22,12 +22,12 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 20px 100px;
+  padding: 10px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 99;
-  background-color: rgb(76, 76, 243);
+  background-color: purple;
 }
 
 .logo {
@@ -290,13 +290,32 @@ h1 {
 }
 
 #demo{
-    position: relative;
-    top: -108px;
-    font-size: xx-large;
-    left: -40px;
-    color: purple;
-    font-weight: bold;
+  position: relative;
+  top: -18px;
+  font-size: xx-large;
+  left: -98px;
+  color: rgb(247, 242, 247);
+  font-weight: bold;
+  font-family: "Cedarville Cursive", serif;
+  font-weight: 400;
+  font-style: normal;
 }
+.about{
+  width: 609px;
+  position: absolute;
+  height: 382px;
+  padding: 30px 20px;
+  top: 162px;
+  right: 42px;
+  font-size: 24px;
+  color: rgb(239, 30, 239);
+  border-radius: 10px;
+  border: 2px solid rgb(247, 231, 247);
+}
+.about p{
+  padding: 40px 20px;
+}
+
 .gauge-container {
   margin: 20px;
   text-align: center;
