@@ -338,6 +338,16 @@ h1 {
   padding: 0px 100px;
 }
 
+.metric h3{
+  background-color: #121212;
+  padding: 4px;
+}
+
+.metric h3 span{
+  top: 2px;
+  padding: 4px;
+}
+
 /* Gauge Dynamic Background */
 .gauge[data-percentage] {
   background: conic-gradient(
@@ -353,4 +363,10 @@ h1 {
   border-radius: 8px;
   background: #1e1e1e;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+h3 span{
+  position: relative;
+    top: 46px;
+    font-size: xx-large;
+    color: #76ff03;
 }
