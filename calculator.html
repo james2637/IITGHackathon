@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Electricity Meter</title>
+    <link rel="stylesheet" href="chatbot.css">
+</head>
+<body>
+    <div class="meter-container">
+        <h1>Smart Electricity Meter</h1>
+        <div class="meter-display">
+            <p>Current Consumption: <span id="consumption">0</span> kWh</p>
+            <p>Cost: $<span id="cost">0.00</span></p>
+        </div>
+        <div class="controls">
+            <label for="limit">Set Consumption Limit (kWh):</label>
+            <input type="number" id="limit" placeholder="Enter limit">
+            <button id="setLimit">Set Limit</button>
+        </div>
+        <div class="alert" id="alert"></div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>
