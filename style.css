@@ -27,7 +27,7 @@ header {
   justify-content: space-between;
   align-items: center;
   z-index: 99;
-  background-color: purple;
+  background-color: rgb(24, 19, 24);
 }
 
 .logo {
@@ -308,7 +308,7 @@ h1 {
   top: 162px;
   right: 37px;
   font-size: 24px;
-  color: rgb(239, 30, 239);
+  color: rgb(49, 44, 49);
   border-radius: 10px;
   border: 2px solid rgb(247, 231, 247);
 }
